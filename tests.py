@@ -85,11 +85,11 @@ def test_04():
     assert mse_test == 35336798.88
 
 
-test = {
-    "01": test_01,
-    "02": test_02,
-    "03": test_03,
-    "04": test_04,
-}[sys.argv[1]]
+# test = {
+#     "01": test_01,
+#     "02": test_02,
+#     "03": test_03,
+#     "04": test_04,
+# }[sys.argv[1]]
 
-test()
+# test()
